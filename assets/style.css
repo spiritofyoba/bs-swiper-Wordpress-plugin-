@@ -1,0 +1,76 @@
+.bs-content p {
+    padding: 0;
+}
+.bs-title, .bs-text p, .bs-text {
+    color: #fff;
+    text-align: left;
+    margin: 0;
+}
+.bs-link {
+    color: #ff005a;
+    cursor: pointer;
+}
+/*media section*/
+@media screen and (min-width: 992px) {
+    .bs-text p {
+        max-width: 100%;
+        font-size: 30px;
+        line-height: 1;
+        margin: 15px 0;
+    }
+    .bs-title {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1199px) {
+    .bs-title {
+        max-width: 51%;
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.25;
+    }
+    .bs-text p {
+        margin: 0 0 3rem;
+        max-width: 51%;
+        font-size: 40px;
+        line-height: 1.16;
+    }
+    .bs-link {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .bs-title {
+        max-width: 100%;
+        font-size: 26px;
+    }
+    .bs-link {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bs-text p {
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 1;
+        margin: 15px 0;
+    }
+    .bs-title {
+        max-width: 100%;
+    }
+    .bs-link {
+        font-size: 14px;
+    }
+
+    .Parallax-pagination--dots{
+        zoom: 1.2;
+    }
+    .Parallax-wrapper {
+        width: 100%;
+    }
+    .bs-title {
+        font-size: 14px;
+    }
+}
+/*end of media section*/
+
